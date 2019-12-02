@@ -1,22 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+body{
+  background: rgb(238,245,29);
+  background: linear-gradient(90deg, rgba(238,245,29,1) 0%, rgba(231,150,15,1) 16%, rgba(241,30,9,1) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15%;
 }
 
-.App-link {
-  color: #09d3ac;
+.box{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding: 100px;
+}
+
+button{
+  margin: 5px;
+  padding: 3px;
 }
